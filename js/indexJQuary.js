@@ -17,18 +17,18 @@ $(function (argument) {
     !='none') {
       navWrap.addClass('nav-sticky');
       navlogo.attr('style','display: block;');
-      search_icon.attr('src','../img/icon/search_w.png')
+      search_icon.attr('src','img/icon/search_w.png')
 
     }else if($window.scrollTop()>120 && top_ad.css('display')
     =='none'){
      navWrap.addClass('nav-sticky');
      navlogo.attr('style','display: block;');
-     search_icon.attr('src','../img/icon/search_w.png')
+     search_icon.attr('src','img/icon/search_w.png')
 
    }else{
     navWrap.removeClass('nav-sticky');
     navlogo.attr('style','display: none;');
-    search_icon.attr('src','../img/icon/search.png')
+    search_icon.attr('src','img/icon/search.png')
   }
 
 });
